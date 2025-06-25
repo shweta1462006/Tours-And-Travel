@@ -7,7 +7,7 @@ function App() {
   <>
   <Nav/>
   <Routes>
-    <Route path='/' element={<Destinantion/>}/>
+    <Route path='/Destinantion' element={<Destinantion/>}/>
   </Routes>
 
   {/* <Destinantion/> */}

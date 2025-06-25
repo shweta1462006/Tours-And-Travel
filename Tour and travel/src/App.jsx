@@ -2,11 +2,13 @@
 import Destinantion from './Component/Pages/Destinantion'
 import {  Route, Routes } from 'react-router-dom'
 import Nav from './Component/Pages/Nav'
+import Home from './Component/Pages/Home'
 function App() {
   return(
   <>
   <Nav/>
   <Routes>
+    <Route path='/' element={<Home/>}/>
     <Route path='/Destinantion' element={<Destinantion/>}/>
   </Routes>
 

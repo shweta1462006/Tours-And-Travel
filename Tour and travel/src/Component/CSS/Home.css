@@ -1,0 +1,33 @@
+    .divcss {
+        overflow: hidden;
+  position: relative;
+    background-size: cover;
+  background-position: center;
+        /* background-color: red; */
+        animation-name: example;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+      }
+       .divcss::after {
+       content: "";
+     position: absolute;
+     border-radius: 10px;
+
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: 200px;
+     z-index: 0;
+     background: linear-gradient(to bottom, transparent, rgba(111, 200, 248, 0.7));
+
+ }
+
+      
+      @keyframes example {
+        0%   {background:url("https://media.istockphoto.com/id/539105384/photo/kedarnath-in-india.jpg?b=1&s=612x612&w=0&k=20&c=b022I7LBVwivpeyWhwG1BZdaDxshWInq-uaRpL6CGPc=") alt="sxdfcgvhbjnkml," no-repeat center/cover ;}
+        25%  {background:url("https://media.istockphoto.com/id/623586586/photo/taj-mahal-agra-uttar-pradesh-rajasthan-india-asia.jpg?b=1&s=612x612&w=0&k=20&c=GS0S_NWipEL8UAh_I1d9dd03PHipkHe6INU_hsmnetk=") no-repeat center/cover;}
+        50%  {background: url("https://media.istockphoto.com/id/1398087835/photo/pink-palace-hawa-mahal-jaipur-india-beautiful-sunset-view.jpg?b=1&s=612x612&w=0&k=20&c=bD4EQWgn3kgYjz71PgyB8N7YgRFhRII824Tez1fR1MM=") no-repeat center/cover;}
+        75% {background:url("https://media.istockphoto.com/id/510795912/photo/india-gate.jpg?b=1&s=612x612&w=0&k=20&c=uBj7VsjkWGwDJmDcE2EVPMINh6JRIHdErHvvAaB8Xuw=") no-repeat center/cover;}
+        100% {background:url("https://media.istockphoto.com/id/671951258/photo/lotus-temple-in-new-delhi-india.jpg?b=1&s=612x612&w=0&k=20&c=fbwar-Gfzqstm_u_85wj5C34g18efgJ1-9HKStqBtOM=") no-repeat center/cover;}
+        
+      }

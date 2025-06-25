@@ -1,5 +1,5 @@
 import React from 'react'
-
+import TourD from '../TourD'
 export default function Destinantion() {
   return (
     <>
@@ -14,6 +14,7 @@ export default function Destinantion() {
       <img src="https://cdn.pixabay.com/photo/2018/12/06/06/16/river-3859215_1280.jpg" alt="Model wearing plain white basic tee." className="row-span-2 aspect-4/5 size-full object-cover sm:rounded-lg lg:aspect-3/4"/>
     </div>
     <hr className='min-h-10 text-stone-600 mt-2'></hr>
+    <TourD/>
     </>
   )
 }

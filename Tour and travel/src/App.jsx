@@ -1,8 +1,17 @@
-import { useState } from 'react'
-import './App.css'
 
+import Destinantion from './Component/Pages/Destinantion'
+import {  Route, Routes } from 'react-router-dom'
 function App() {
-  <> <h1>ckkbhk</h1></>
+  return(
+  <>
+  
+  <Routes>
+    <Route path='/' element={<Destinantion/>}/>
+  </Routes>
+
+  {/* <Destinantion/> */}
+  </>
+  )
 }
 
 export default App

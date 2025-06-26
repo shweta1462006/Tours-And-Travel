@@ -3,10 +3,9 @@ import React from 'react'
 export default function Footer() {
   return (
     <div>
-            <section className="mb-12 ">
-<div className='ml-20 bg-slate-200 text-blue-700'>
+            <section className="mb-12 bg-slate-500  ">
+<div className='ml-20 text-blue-100 p-5'>
 
-        <h2 className="text-xl font-semibold mb-4">19 Art Portfolio Examples</h2>
         <ul className="list-disc list-inside grid gap-1 sm:grid-cols-2 md:grid-cols-3">
           {[
             'Nathalie Lete', 'Michelle Carlos', 'Carmen & Luisa', 'Kriscoart', 'Alef', 'SMEX',
@@ -18,6 +17,7 @@ export default function Footer() {
           ))}
         </ul>
         </div>
+        
       </section>
 
     </div>

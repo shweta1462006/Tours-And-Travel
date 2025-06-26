@@ -18,7 +18,7 @@ export default function Nav() {
       </div>
 
       {/* Navigation Links */}
-      <div className={`${isOpen ? 'block' : 'hidden'} md:flex md:items-center md:space-x-4 mt-3 md:mt-0`}>
+      <div className={`${isOpen ? 'block' : 'hidden'} md:flex justify-center md:items-center md:space-x-4 mt-3 md:mt-0`}>
         <a href="/" className="block px-3 py-2 text-white rounded-lg hover:bg-slate-100 hover:text-slate-900">Home</a>
         <a href="/Destinantion" className="block px-3 py-2 text-white rounded-lg hover:bg-slate-100 hover:text-slate-900">Destination</a>
         <a href="/projects" className="block px-3 py-2 text-white rounded-lg hover:bg-slate-100 hover:text-slate-900">Projects</a>

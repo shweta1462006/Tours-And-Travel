@@ -1,6 +1,7 @@
 import React from 'react'
 import TourD from '../TourD'
 import MainD from './MainD'
+import TourPlaces from './TourPlaces'
 export default function Destinantion() {
   return (
     <>
@@ -17,6 +18,7 @@ export default function Destinantion() {
     </div>
     <hr className='min-h-10 text-stone-600 mt-2'></hr>
     <TourD/>
+    <TourPlaces/>
     </>
   )
 }

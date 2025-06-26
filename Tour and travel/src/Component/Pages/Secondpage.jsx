@@ -3,10 +3,10 @@ import React from 'react';
 export default function Secondpage() {
   return (
     <div className="container   mx-auto p-20 lg:p-8">
-<h1 className="text-black font-bold uppercase my-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center">
+<h1 className="text-slate-700 font-bold uppercase my-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center">
   Top Trending Destinations
 </h1>
-<p className="text-black font-semibold my-2 text-lg sm:text-xl md:text-2xl lg:text-3xl text-center">
+<p className="text-slate-700 font-semibold my-2 text-lg sm:text-xl md:text-2xl lg:text-3xl text-center">
   View All Tours...
 </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-6 auto-rows-fr">

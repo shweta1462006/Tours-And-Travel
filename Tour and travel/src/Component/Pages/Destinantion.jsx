@@ -1,8 +1,10 @@
 import React from 'react'
 import TourD from '../TourD'
+import MainD from './MainD'
 export default function Destinantion() {
   return (
     <>
+    <MainD/>
     <h3 className='font-medium mt-5'>HOME/ INDIA TOUR/ LADAK</h3>
     <div>
         <h1 className='font-serif font-blacK tracking-widest text-5xl text-center mt-2'>DESTINATION</h1>

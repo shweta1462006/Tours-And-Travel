@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import "../CSS/Home.css"
 import Secondpage from './Secondpage'
+import Layer from './Layer'
 
 
 
@@ -18,8 +19,9 @@ export default function Example() {
       
       </div>
       </div>
+                <Secondpage/>
 
-          <Secondpage/>
+<Layer/>
 
     </div>
   )

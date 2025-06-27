@@ -1,11 +1,9 @@
-import React from 'react';
-
 const products = [
   {
     id: 1,
     name: 'Basic Tee',
     href: '#',
-    imageSrc: 'https://www.tourmyindia.com/weekend-tours/images/lonavala-weekend-tour1.webp',
+    imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-01.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
     color: 'Black',
   },
@@ -13,7 +11,7 @@ const products = [
     id: 2,
     name: 'Basic Tee',
     href: '#',
-    imageSrc: 'https://www.tourmyindia.com/blog//wp-content/uploads/2025/06/Popular-Short-Treks-in-Sikkim.jpg',
+    imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-01.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
     color: 'Black',
   },
@@ -21,7 +19,7 @@ const products = [
     id: 3,
     name: 'Basic Tee',
     href: '#',
-    imageSrc: 'https://www.tourmyindia.com/blog//wp-content/uploads/2025/06/Rabangla-to-Maenam-Hill-Trek-768x512.jpg',
+    imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-01.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
     color: 'Black',
   },
@@ -29,7 +27,7 @@ const products = [
     id: 4,
     name: 'Basic Tee',
     href: '#',
-    imageSrc: 'https://www.tourmyindia.com/weekend-tours/images/mahabaleshwar-weekend-tour2.webp',
+    imageSrc: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-01.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
     color: 'Black',
   },
@@ -39,22 +37,12 @@ const products = [
   // More products...
 ]
 
-
-
-export default function Secondpage() {
+export default function Example() {
   return (
-    <div className="container   mx-auto  lg:p-8">
-{/* <h1 className="text-slate-700 font-bold uppercase my-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center">
-  Top Trending Destinations
-</h1>
-<p className="text-slate-700 font-semibold my-2 text-lg sm:text-xl md:text-2xl lg:text-3xl text-center">
-  View All Tours...
-</p> */}
     <div className="bg-white">
-            <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-<p className='text-slate-700 my-2 font-bold  text-lg sm:text-xl md:text-2xl lg:text-xl ' >Best Selling Heritage Tour Packages</p>
+      <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
 
-        <div className="grid h-23 grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           {products.map((product) => (
             <div key={product.id} className="group relative">
               <img
@@ -81,6 +69,5 @@ export default function Secondpage() {
         
       </div>
     </div>
-    </div>
-  );
+  )
 }

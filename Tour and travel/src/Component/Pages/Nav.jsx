@@ -27,5 +27,5 @@ export default function Nav() {
         {/* <input className="h-8 px-2 mt-2 md:mt-0 rounded" type="search" placeholder="Search here..." /> */}
       </div>
     </nav>
-  );
+  ); 
 }

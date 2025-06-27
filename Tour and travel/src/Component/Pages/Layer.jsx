@@ -25,6 +25,8 @@ export default function Layer() {
             <p className="mt-4 text-base">
               Interesting and intriguing, India offers incredible holiday experiences through its cultural, topographical, and wildlife diversity. With these amazing and unique experiences, this South Asian country is a top destination for holistic vacations. India is known for its architectural masterpieces, making it ideal for heritage tours. From the iconic Taj Mahal to monuments in every corner of the country, each reflects grand architecture and deep historical roots.
             </p>
+            <p  className="mt-4 text-base">Interesting and intriguing, India offers incredible holiday experiences through its cultural, topographical, and wildlife diversity. With these amazing and unique experiences, this South Asian country is a top destination for holistic vacations. India is known for its architectural masterpieces, making it ideal for heritage tours. From the iconic Taj Mahal to monuments in every corner of the country, each reflects grand architecture and deep historical roots.
+</p>
             <p className="mt-4 text-base">
               India's diverse topography — from the Himalayas to deserts, forests, and coastal stretches — makes for unforgettable sightseeing and adventure. Whether it's trekking in remote regions or relaxing by scenic waterfalls, India has something for every traveler.
             </p>
@@ -44,6 +46,9 @@ export default function Layer() {
             <p className="mt-4 text-base">
               India is incredible due to its rich history, diverse culture, and contributions to global knowledge. From yoga and Ayurveda to mathematics and science, India's influence is vast.
             </p>
+                        <p  className="mt-4 text-base">Interesting and intriguing, India offers incredible holiday experiences through its cultural, topographical, and wildlife diversity. With these amazing and unique experiences, this South Asian country is a top destination for holistic vacations. India is known for its architectural masterpieces, making it ideal for heritage tours. From the iconic Taj Mahal to monuments in every corner of the country, each reflects grand architecture and deep historical roots.
+</p>
+
             <p className="mt-4 text-base">
               The Taj Mahal is an ivory-white marble mausoleum on the Yamuna river in Agra. Commissioned in 1631 by Mughal emperor Shah Jahan for his wife Mumtaz Mahal, it remains a symbol of eternal love. It’s a UNESCO World Heritage Site and an iconic example of Mughal architecture, admired globally for its symmetry, beauty, and craftsmanship.
             </p>
@@ -71,8 +76,11 @@ export default function Layer() {
               <h1 className="uppercase text-slate-600 text-5xl font-bold">Fort</h1>
             </div>
             <p className="mt-4 text-base">
-              The Red Fort (Lal Qila) in Delhi is a powerful symbol of India’s political heritage. Built by Shah Jahan, it served as the residence of Mughal emperors and is known for its red sandstone walls and intricate architecture. Every Independence Day, India's Prime Minister hoists the flag here.
+              The Red Fort (Lal Qila) in Delhi is a powerful symbol of India’s political heritage. Built by Shah Jahan, it served as the residence of Mughal emperors and is known for its red sandstone walls and intricate architecture. Every Independence Day, India's a powerful symbol of India’s political heritage. Built by Shah Jahan, it served as the residence of Mughal emperors and is known for its red sandstone walls and intricate architecture. Every Independence Day, India's Prime Minister hoists the flag here. Prime Minister hoists the flag here.
             </p>
+                        <p  className="mt-4 text-base">Interesting and intriguing, India offers incredible holiday experiences through its cultural, topographical, and wildlife diversity. With these amazing and unique experiences, this South Asian country is a top destination for holistic vacations. India is known for its architectural masterpieces, making it ideal for heritage tours. From the iconic Taj Mahal to monuments in every corner of the country, each reflects grand architecture and deep historical roots.
+</p>
+
             <p className="mt-4 text-base">
               The Red Fort is a UNESCO World Heritage Site and a major attraction for tourists. It’s often compared to Agra Fort, both built of red sandstone but offering unique experiences.
             </p>

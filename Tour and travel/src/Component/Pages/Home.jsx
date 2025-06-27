@@ -1,18 +1,10 @@
 'use client'
 
 import { useState } from 'react'
-<<<<<<< HEAD
 import "../CSS/Home.css";
 import Layer from './Layer'
 import Data from '../../Component/Data'
 import Section from './Section';
-=======
-// import "../CSS/Home.css"
-// import Secondpage from './Secondpage'
-import Layer from './Layer'
-// import Data from '../../Component/Data'
->>>>>>> 2c284e6c6980caf9d801ee509ee3ce8fec578abd
-// import Card290 from './Card290'
 
 
 
@@ -42,10 +34,9 @@ export default function Home() {
     
 <Section/>
 <Data/>
+<Layer/>
     </div>
 
-      <Layer />
-      {/* <Card290/> */}
     </div>
     </>
   )

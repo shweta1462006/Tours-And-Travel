@@ -1,6 +1,6 @@
 const ClothsData ={
   Datacategories:{
-  dreses: [
+  Heritage: [
     {
         "id":1,
       "url": "https://www.tourmyindia.com/packages-tour-india/image/6nights-7days-golden.webp",

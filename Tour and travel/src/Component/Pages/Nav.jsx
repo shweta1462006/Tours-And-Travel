@@ -6,7 +6,7 @@ export default function Nav() {
 
   return (
     <>
-      <nav className="bg-slate-700 text-white">
+      <nav className="bg-slate-500 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-12 items-center">
             {/* Logo or Brand */}
@@ -42,7 +42,7 @@ export default function Nav() {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden px-2 pt-2 pb-3 space-y-1 bg-slate-700">
+          <div className="md:hidden px-2 pt-2 pb-3 space-y-1 bg-slate-400">
             <a href="/home" className="block px-3 py-2 rounded-lg hover:bg-slate-100 hover:text-slate-900">Home</a>
             <a href="/destinantion" className="block px-3 py-2 rounded-lg hover:bg-slate-100 hover:text-slate-900">Destination</a>
             <a href="/Contact" className="block px-3 py-2 rounded-lg hover:bg-slate-100 hover:text-slate-900">Contact</a>

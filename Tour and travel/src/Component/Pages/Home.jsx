@@ -1,10 +1,10 @@
 'use client'
 
 import { useState } from 'react'
-import "../CSS/Home.css"
-import Secondpage from './Secondpage'
+// import "../CSS/Home.css"
+// import Secondpage from './Secondpage'
 import Layer from './Layer'
-import Data from '../../Component/Data'
+// import Data from '../../Component/Data'
 // import Card290 from './Card290'
 
 

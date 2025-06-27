@@ -19,6 +19,7 @@ const Cloths = () => {
       : { [selectedCategory]: Datacategories[selectedCategory] };
 
   return (
+    
     <div style={{ padding: "20px" }}>
       {/* Dropdown Menu */}
       <label htmlFor="category" style={{ fontWeight: "bold", marginRight: "10px" }}>
@@ -47,13 +48,6 @@ const Cloths = () => {
               <div key={item.id}>
                 <div className="group relative w-full rounded-md ">
                   <img src={item.url} alt={item.dress_name} className="aspect-square h-[150px] w-full rounded-md h  bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-90" /></div>
-
-                <h3 className="text-sm text-blue-700">
-                  <a href="#">
-                    <span aria-hidden="true" className="absolute inset-0"></span>
-                    {item.title}
-                  </a>
-                </h3>
 
                 <p className="mt-1 text-sm text-gray-500">{item.dress_name}</p>
               </div>

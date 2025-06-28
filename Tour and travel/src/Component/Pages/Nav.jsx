@@ -18,7 +18,6 @@ export default function Nav() {
             <div className="hidden md:flex space-x-4">
               <a href="/" className="px-3 py-2 rounded-lg hover:bg-slate-100 hover:text-slate-900">Home</a>
               <a href="/destinantion" className="px-3 py-2 rounded-lg hover:bg-slate-100 hover:text-slate-900">Destination</a>
-              <a href="/Contact" className="px-3 py-2 rounded-lg hover:bg-slate-100 hover:text-slate-900">Contact</a>
               <a href="/About" className="px-3 py-2 rounded-lg hover:bg-slate-100 hover:text-slate-900">About</a>
             </div>
 
@@ -45,7 +44,6 @@ export default function Nav() {
           <div className="md:hidden px-2 pt-2 pb-3 space-y-1 bg-slate-400">
             <a href="/home" className="block px-3 py-2 rounded-lg hover:bg-slate-100 hover:text-slate-900">Home</a>
             <a href="/destinantion" className="block px-3 py-2 rounded-lg hover:bg-slate-100 hover:text-slate-900">Destination</a>
-            <a href="/Contact" className="block px-3 py-2 rounded-lg hover:bg-slate-100 hover:text-slate-900">Contact</a>
             <a href="/About" className="block px-3 py-2 rounded-lg hover:bg-slate-100 hover:text-slate-900">About</a>
           </div>
         )}

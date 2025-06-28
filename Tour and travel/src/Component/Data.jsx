@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ClothsData from "../Component/third45"; // Adjust path if needed
+import ClothsData from "../Component/third45"; 
 
 const Cloths = () => {
   const { Datacategories } = ClothsData;
@@ -42,7 +42,7 @@ const Cloths = () => {
       {/* Render Items */}
       {Object.entries(filteredData).map(([categoryName, items]) => (
         <div className="m-4" key={categoryName}>
-          <div className="mt-6  grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 ">
+          <div class="mt-6  grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 ">
 
             {items.map((item) => (
               <div key={item.id}>

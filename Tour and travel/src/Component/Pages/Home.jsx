@@ -9,7 +9,6 @@ import Section from './Section';
 export default function Home() {
   return (
     <div className="bg-white">
-      {/* Hero Section */}
       <div className="bg-[url('https://www.tourmyindia.com/blog//wp-content/uploads/2022/01/Best-Places-to-Visit-in-March-in-India.jpg')] bg-cover bg-center h-[300px] sm:h-[400px] md:h-[250px] w-full flex items-center justify-center">
         <div className="text-center px-4">
           <h1 className="text-8xl sm:text-6xl md:text-7xl lg:text-9xl font-serif font-bold text-black mb-4">
@@ -21,7 +20,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Main Content */}
       <div className="bg-white text-gray-800 p-6 sm:p-8 md:p-12 max-w-screen-xl mx-auto">
         <Section />
         <Data />

@@ -7,16 +7,19 @@ import Data from './Component/Data'
 import Footer from './Component/Pages/Footer'
 import About from './Component/Pages/About'
 import Contact from './Component/Pages/Contact'
+import Practice from './Component/Pages/Practice'
 
 function App() {
   return(
   <>
   <Nav/>
   <Routes>
-    <Route path='/home' element={<Home/>}/>
+    <Route path='/' element={<Home/>}/>
     <Route path='/destinantion' element={<Destinantion/>}/>
     <Route path='/About' element={<About/>}/>
     <Route path='/Contact' element={<Contact/>}/>
+        <Route path='/Practice' element={<Practice/>}/>
+
 
   </Routes>
   <Footer/>

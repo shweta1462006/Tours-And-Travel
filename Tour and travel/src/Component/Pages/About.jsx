@@ -22,8 +22,8 @@ At [Your Company Name], we believe that travel is more than just reaching a dest
      </div>
      <div className='flex justify-evenly h-full w-full mt-20'>
 <div className='w-64 h-96 bg-slate-600 gap-6'> 
-  icon
-  
+  <img src="/public/Images/thumb.jpg" alt=""  className='h-28 w-full '/>
+  <h2>20+ Year of Experience</h2>
 </div>
 <div className='w-64 h-96 bg-slate-600 gap-6'></div>
 <div className='w-64 h-96 bg-slate-600 gap-6'></div>

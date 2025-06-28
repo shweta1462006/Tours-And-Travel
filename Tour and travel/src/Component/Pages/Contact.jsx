@@ -38,7 +38,7 @@ export default function TravelForm() {
 
   return (
     <div
-      className="relative h-screen bg-cover bg-center"
+      className="relative h-screen bg-cover bg-center mt-32"
       style={{
         backgroundImage:
           "url('/public/Images/climbing.webp')",
